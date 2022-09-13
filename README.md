@@ -9,8 +9,10 @@
 
     
      O que aprendi?
-      -Estou entendendo mais sobre a Flexbox;
+      -Flexbox;
+      -Flex item;
+      -Flex-container;
       -Mais comandos e estilização CSS;
       -Formulário;
       -Box-shadow;
-      -Reconhecer mais elementos de um site profissional no seu código;
+      -Reconhecer mais elementos de um site original no seu código;
