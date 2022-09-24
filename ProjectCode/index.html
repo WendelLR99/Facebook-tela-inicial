@@ -1,34 +1,51 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Facebook</title>
-    <link rel="shortcut icon" href="./imgs/download.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./imgs/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="facebook">
-        <div class="face-info">
-            <img src="./imgs/dF5SId3UHWd.svg" alt="Facebook">
-            <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+
+    <div class="wrapper" style="display:flex;">
+
+        <div class="facebook-main">
+            <div class="facebook">
+                <img src="./imgs/dF5SId3UHWd.svg" alt="Facebook">
+            </div>
+            <div class="facebook-msg">
+                <p>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+            </div>
         </div>
-        <form>
-            <div class="face-shadow">
-        <div class="face-login">
-            <input type="text" aria-label="Email ou senha">
-        </div>
-        <div class="face-password">
-            <input type="password" aria-label="Senha">
-        </div>
-        <div class="register">
-            <button>Criar nova conta</button>
+
+        <div class="form">
+            <form>
+                <div class="login">
+                    <input type="text" placeholder="Email ou Telefone">
+                    <input type="password" placeholder="Senha">
+
+                    <div class="btn">
+                        <button class="enter"><a href="#" class="enter-link">Entrar</a></button>
+                        <a href="#" class="remember">Esqueceu a senha?</a>
+                        <div class="bord"></div>
+                        <button class="create"><a href="#" class="create-link">Criar nova conta</a></button>
+                    </div>
+                    <div class="page">
+                        <p><strong>Criar uma Página</strong> para uma celebridade, uma marca ou uma empresa.</p>
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
-    </div>
-</form>
+
 </body>
 
 </html>

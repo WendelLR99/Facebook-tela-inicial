@@ -2,40 +2,118 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    font-family: sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 14px;
+    text-decoration:none;
+}
+.form{
+    background-color: rgb(255, 255, 255);
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+    box-shadow:0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+    display:flex;
+    flex-direction: column;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.facebook img{
+    width: 300px;
+    height: 100px;
+    display: grid;
+}
+
+.facebook-msg p{
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    height: 10%;
+    text-align:start;
 }
 
 body{
-    background-color:rgb(247, 249, 250);
-    width: 50%;
-    height: 100%;
+    background-color: rgb(243, 242, 242);
+    display: flex;
+    justify-content:space-evenly;
 }
 
-.facebook{
-    display: flex;
-    width: 100vh;
-    height: 100%;
+
+.facebook-main, .form{
+    margin: 10% 100px;
+}
+.form input{
+    padding: 15px;
     justify-content: center;
-    align-items: center;
-}
-.face-info p{
-    font-size: 5vh;
+    border-radius: 10px;
+    border: rgb(177, 177, 177) 1px solid;
     display: flex;
+    flex-direction: column;
+    width: 95%;
+    align-items: center;
+    margin: 10px;
+    color: rgba(196, 195, 195, 0.846);
 }
-.face-shadow{
-    box-shadow: 3px black;
-    background-color:rgb(237, 241, 241);
+.form ::placeholder{
+    color: rgba(128, 128, 128, 0.658);
+    font-family: sans-serif;
+    font-size: 18px;
 }
 
-.face-login input, .face-password input{
-    padding: 5px 5px;
-    box-shadow: 5px blue;
+.form button{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 10px;
+    border: 0;
+}
+.enter{
+    background-color: rgb(28, 83, 211);
+    width: 100%;
+    padding: 10px;
+    align-self: center;
+}
+.create{
+    background-color: rgb(26, 191, 26);
+    padding: 10px 5px;
+    width: 200px;
+    height: 50px;
+    align-self: center;
+}
+.remember{
+    color: rgb(61, 117, 249);
 }
 
-form{
-    background-color: rgb(237, 241, 241);
-    width: 20vh;
-    height: 10vw;
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    padding: 10px;
+}
+.wrapper{
+    justify-content: space-around;
+}
+.bord{
+    border-bottom: 1px solid rgba(124, 123, 123, 0.257);
+    width: 100%;
+    align-self: center;
+    padding: 10px;
+}
+.create-link, .enter-link{
+    font-size: 18px;
+}
+.login{
+    padding: 10px;
+    width: 350px;
+}
+.languages{
+    background-color: blue;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
 }
