@@ -8,11 +8,13 @@
     
 
     
-     O que aprendi?
+     O que pratiquei?
       -Flexbox;
-      -Flex item;
+      -Flex-item;
       -Flex-container;
-      -Mais comandos e estilização CSS;
+      -Mais comandos e estilização com CSS;
       -Formulário;
       -Box-shadow;
-      -Reconhecer mais elementos de um site original no seu código;
+      
+      O que pode ser melhorado:
+      -Responsividade
